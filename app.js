@@ -171,7 +171,13 @@ Complete Exercise 11 in the space below:
 */
 
 const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
-
+let odds = [];
+    for (let i = 0; i < nums.length; i++) {
+        if (i % 2 === 0) {
+            odds += nums[i];
+        }
+        return odds;
+    }
 
 
 console.log('Exercise 11 result:', odds);
